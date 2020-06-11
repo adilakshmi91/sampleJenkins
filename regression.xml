@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Reggression_Suite">
+  <test name="login_Test">
+    <classes>
+      <class name="Demo_testng.TC_login"/>
+      
+      </classes>
+      
+       </test > <!-- Test -->
+       <test name='home_test'>
+      <classes>
+      <class name="Demo_testng.TC_home">
+          <methods>
+      <exclude name="TC_home_login1"/>
+      </methods>
+      </class>
+      
+      </classes>
+      </test> <!-- Test -->
+      </suite> <!-- Suite -->
